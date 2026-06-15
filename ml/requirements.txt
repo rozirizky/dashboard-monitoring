@@ -1,5 +1,0 @@
-torch
-transformers
-datasets==2.18.0
-pandas
-scikit-learn
