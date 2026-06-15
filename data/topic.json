@@ -1,0 +1,342 @@
+{ "topic_keyword" :{
+    "economic_activity": [
+        "retail sales", "consumer spending", "economic activity",
+        "industrial production", "business activity", "factory orders",
+      "durable goods",
+      "new orders",
+      "manufacturing output",
+      "services output"
+    ],
+    "balance": [
+        "trade balance", "current account", "budget balance",
+        "surplus", "deficit"
+    ],
+    "inflation": [
+        "inflation", "cpi", "ppi", "price index",
+        "consumer price", "cost pressure"
+    ],
+    "central_banks": [
+        "central bank", "federal reserve", "fed",
+        "ecb", "boj", "boe", "rate decision",
+        "monetary policy", "interest rate decision"
+    ],
+    "credit": [
+        "credit", "lending", "loan", "mortgage",
+        "credit growth", "borrowing"
+    ],
+    "confidence_index": [
+        "confidence", "consumer confidence",
+        "business confidence", "sentiment index",  "ifo",
+      "zew",
+      "pmi expectations",
+      "business outlook",
+      "economic expectations"
+    ],
+    "bonds": [
+        "bond", "yield", "treasury", "government bond",
+        "bond yield", "10-year yield"
+    ],
+    "employment": [
+        "employment", "jobs", "nfp", "unemployment",
+        "jobless claims", "labor market", "payroll",
+      "participation rate",
+      "average earnings",
+      "job openings",
+      "jolts",
+      "layoffs"
+    ],
+    "technical_analysis": [
+    "resistance", "support", "overbought", "oversold",
+    "momentum", "trend", "breakout", "pullback",
+    "moving average", "rsi", "macd", "price action"
+],
+  "gdp": [
+      "gdp",
+      "gross domestic product",
+      "economic growth",
+      "quarterly growth",
+      "annualized growth",
+      "gdp growth rate",
+      "real gdp"
+    ],
+    "commodity": [
+      "commodity",
+      "crude oil",
+      "brent",
+      "wti",
+      "gold",
+      "silver",
+      "copper",
+      "natural gas",
+      "iron ore",
+      "coal",
+      "oil price",
+      "energy price"
+    ],
+    "housing": [
+      "housing",
+      "home sales",
+      "building permits",
+      "housing starts",
+      "house price",
+      "property price",
+      "real estate",
+      "hpi"
+    ],
+    "fiscal_policy": [
+      "fiscal policy",
+      "government spending",
+      "budget deficit",
+      "national debt",
+      "stimulus",
+      "tax policy",
+      "fiscal stimulus",
+      "public debt"
+    ]
+},
+    "topic_event" : {
+    "Retail Sales": "economic_activity",
+    "Household Spending": "economic_activity",
+    "Industrial Production": "economic_activity",
+    "GDP": "economic_activity",
+    "Visitor Arrivals": "economic_activity",
+    "Capacity Utilization": "economic_activity",
+    "Electronic Card Retail Sales": "economic_activity",
+    "Retailles WDA": "economic_activity",
+    "CPI": "inflation",
+    "Core CPI": "inflation",
+    "Estonian CPI": "inflation",
+    "French CPI": "inflation",
+    "French HICP": "inflation",
+    "Slovak CPI": "inflation",
+    "CPIF": "inflation",
+    "MI Inflation Gauge": "inflation",
+    "WPI Inflation": "inflation",
+    "WPI Food": "inflation",
+    "WPI Fuel": "inflation",
+    "WPI Manufacturing Inflation": "inflation",
+    "Interest Rate Decision": "central_banks",
+    "ECB Bank Lending Survey": "central_banks",
+    "FOMC": "central_banks",
+    "Fed": "central_banks",
+    "ECB": "central_banks",
+    "BOJ": "central_banks",
+    "Fed Governor": "central_banks",
+    "Speaks": "central_banks",
+    "Unemployment Rate": "employment",
+    "Unemployment Change": "employment",
+    "ADP Employment": "employment",
+    "Jobless": "employment",
+    "Wage": "employment",
+    "PMI": "economic_activity",
+    "Services PMI": "economic_activity",
+    "Manufacturing PMI": "economic_activity",
+    "Composite PMI": "economic_activity",
+    "Trade Balance": "balance",
+    "Current Account": "balance",
+    "Exports": "balance",
+    "Imports": "balance",
+    "Copper Exports": "balance",
+    "Consumer Credit": "credit",
+    "Confidence": "confidence_index",
+    "Sentix Investor Confidence": "confidence_index",
+    "Economic Optimism": "confidence_index",
+    "Auction": "bonds",
+    "Bond": "bonds",
+    "BTF Auction": "bonds",
+    "JGB Auction": "bonds",
+    "FX Reserves": "balance",
+    "Foreign Reserves": "balance",
+    "Currency Reserves": "balance",
+    "Reserve Assets": "balance",
+    "Crude Oil": "economic_activity",
+    "EIA": "economic_activity",
+    "OPEC": "economic_activity",
+    "Commodity": "economic_activity",
+    "M2": "credit",
+    "Leading Index": "economic_activity",
+    "Coincident Indicator": "economic_activity",
+    "GDP Growth Rate": "gdp",
+    "GDP Annual Growth": "gdp",
+    "GDP Preliminary": "gdp",
+    "GDP Final": "gdp",
+    "Building Permits": "housing",
+    "Housing Starts": "housing",
+    "Existing Home Sales": "housing",
+    "New Home Sales": "housing",
+    "House Price Index": "housing",
+    "HPI": "housing",
+    "Pending Home Sales": "housing",
+    "Oil Inventories": "commodity",
+    "Crude Oil Inventories": "commodity",
+    "EIA Crude Oil": "commodity",
+    "Natural Gas Storage": "commodity",
+    "Gold Reserves": "commodity",
+    "NFP": "employment",
+    "Non Farm Payrolls": "employment",
+    "Initial Jobless Claims": "employment",
+    "Continuing Claims": "employment",
+    "JOLTS": "employment",
+    "Participation Rate": "employment",
+    "Average Hourly Earnings": "employment",
+    "Durable Goods Orders": "economic_activity",
+    "Factory Orders": "economic_activity",
+    "Business Inventories": "economic_activity",
+    "ISM Manufacturing": "economic_activity",
+    "ISM Services": "economic_activity",
+    "Chicago PMI": "economic_activity",
+    "Empire State Index": "economic_activity",
+    "Philly Fed Index": "economic_activity",
+    "IFO Business Climate": "confidence_index",
+    "ZEW Economic Sentiment": "confidence_index",
+    "GfK Consumer Climate": "confidence_index",
+    "Michigan Consumer Sentiment": "confidence_index",
+    "RBA Rate Decision": "central_banks",
+    "RBNZ Rate Decision": "central_banks",
+    "BOC Rate Decision": "central_banks",
+    "SNB Rate Decision": "central_banks",
+    "Minutes": "central_banks",
+    "Press Conference": "central_banks"
+
+},
+    "currency_map" : {
+    "USD": ["dollar", "usd", "united states", "us ", "america", "greenback", "fed", "federal reserve", "fomc"],
+    "EUR": ["euro", "eur", "eurozone", "europe", "ecb", "european central bank", "eu "],
+    "GBP": ["pound", "gbp", "sterling", "britain", "uk ", "united kingdom", "boe", "bank of england"],
+    "JPY": ["yen", "jpy", "japan", "boj", "bank of japan"],
+    "AUD": ["aud", "australian dollar", "australia", "rba", "reserve bank of australia"],
+    "NZD": ["nzd", "new zealand dollar", "new zealand", "rbnz"],
+    "CAD": ["cad", "canadian dollar", "canada", "boc", "bank of canada"],
+    "CHF": ["chf", "franc", "switzerland", "swiss", "snb"],
+    "NOK": ["nok", "norwegian krone", "norway", "norges bank"],
+    "SEK": ["sek", "swedish krona", "sweden", "riksbank"],
+    "TRY": ["try", "turkish lira", "turkey", "tcmb"],
+    "ZAR": ["zar", "rand", "south africa", "sarb"],
+    "MXN": ["mxn", "mexican peso", "mexico", "banxico"],
+    "HKD": ["hkd", "hong kong dollar", "hong kong", "hkma"],
+    "CNH": ["cnh", "cny", "yuan", "renminbi", "china", "pboc", "chinese"]
+},
+ "topic_impact_weight": {
+    "central_banks": 1.0,
+    "inflation": 0.9,
+    "employment": 0.8,
+    "economic_activity": 0.7,
+    "balance": 0.6,
+    "credit": 0.5,
+    "confidence_index": 0.5,
+    "bonds": 0.4,
+    "gdp": 0.9,
+    "commodity": 0.7,
+    "housing": 0.6,
+    "fiscal_policy": 0.7
+  },
+
+  "currency_sensitivity": {
+    "USD": {
+      "central_banks": 1.0,
+      "inflation": 1.0,
+      "employment": 0.9,
+      "economic_activity": 0.7,
+      "balance": 0.8,
+      "bonds": 0.9,
+      "credit": 0.6,
+      "confidence_index": 0.5
+    },
+    "EUR": {
+      "central_banks": 1.0,
+      "inflation": 0.9,
+      "economic_activity": 0.8,
+      "balance": 0.7,
+      "confidence_index": 0.6
+    },
+
+    "GBP": {
+      "central_banks": 1.0,
+      "inflation": 0.9,
+      "employment": 0.8,
+      "economic_activity": 0.7,
+       "balance": 0.7,
+      "bonds": 0.8,
+      "confidence_index": 0.6,
+      "credit": 0.5
+    },
+
+    "JPY": {
+      "central_banks": 1.0,
+      "bonds": 1.0,
+      "economic_activity": 0.6,
+      "inflation": 0.5
+    },
+
+    "AUD": {
+      "economic_activity": 1.0,
+      "balance": 0.9,
+      "commodity": 1.0,
+      "confidence_index": 0.6
+    },
+
+    "NZD": {
+      "economic_activity": 0.9,
+      "balance": 0.8,
+      "commodity": 0.9
+    },
+
+    "CAD": {
+      "economic_activity": 0.9,
+      "inflation": 0.8,
+      "commodity": 1.0
+    },
+
+    "CHF": {
+      "central_banks": 0.8,
+      "bonds": 0.9,
+      "confidence_index": 0.7
+    },
+
+    "CNH": {
+      "economic_activity": 1.0,
+      "balance": 0.9,
+      "central_banks": 0.8
+    },
+
+    "ZAR": {
+      "commodity": 1.0,
+      "balance": 0.8,
+      "inflation": 0.7
+    },
+     "NOK": {
+      "commodity": 1,
+      "central_banks": 0.8,
+      "economic_activity": 0.7,
+      "inflation": 0.7,
+      "balance": 0.6
+    },
+    "SEK": {
+      "central_banks": 0.9,
+      "inflation": 0.8,
+      "economic_activity": 0.7,
+      "balance": 0.6,
+      "confidence_index": 0.5
+    },
+    "TRY": {
+      "central_banks": 1,
+      "inflation": 1,
+      "balance": 0.8,
+      "economic_activity": 0.7,
+      "credit": 0.7
+    },
+    "MXN": {
+      "central_banks": 0.9,
+      "commodity": 0.9,
+      "inflation": 0.8,
+      "economic_activity": 0.7,
+      "balance": 0.6
+    },
+    "HKD": {
+      "balance": 0.9,
+      "economic_activity": 0.8,
+      "central_banks": 0.7,
+      "credit": 0.6
+  }
+}
+}

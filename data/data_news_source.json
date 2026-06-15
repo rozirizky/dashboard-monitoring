@@ -1,0 +1,51 @@
+[
+
+    {
+        "source": "Yahoo Finance",
+        "baseurl": "https://finance.yahoo.com/topic/stock-market-news/",
+        "kafka_topic": "stocks_news",
+        "category": "stocks",
+        "country": "US",
+        "language": "en"
+    },
+
+    {
+        "source": "IDX Stocks ",
+        "baseurl": "https://www.idx.co.id/id/berita/berita/",
+        "kafka_topic": "stocks_news",
+        "category": "stocks",
+        "country": "ID",
+        "language": "id"
+        
+    },
+      {
+        "source": "IDN Financial Stocks ",
+        "baseurl": "https://www.idnfinancials.com/news",
+        "kafka_topic": "stocks_news",
+        "category": "stocks",
+        "country": "ID",
+        "language": "id"
+        
+    },
+      {
+        "source": "Valbury Forex ",
+        "baseurl": "https://valbury.co.id/category/forex/",
+        "kafka_topic": "forex_news",
+        "category": "forex",
+        "country": "ID",
+        "language": "id"
+        
+    },
+    
+      {
+        "source": "Bravecoin Crypto ",
+        "baseurl": "https://bravenewcoin.com/insights/news",
+        "kafka_topic": "crypto_news",
+        "category": "crypto",
+        "country": "US",
+        "language": "en",
+        "enabled": true,
+        "priority": 1
+        
+    }
+]
